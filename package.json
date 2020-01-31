@@ -35,6 +35,7 @@
     "component"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "ng": "ng",
     "start": "ng serve",
     "build": "npm run build-js && npm run build-scss && npm run extract-scss-variables && npm run build-css",
